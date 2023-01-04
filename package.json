@@ -1,0 +1,25 @@
+{
+  "name": "release-flutter",
+  "version": "1.0.0",
+  "description": "An action for build and release the Flutter applications",
+  "main": "./src/main.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1383n/release-flutter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a1383n/release-flutter/issues"
+  },
+  "homepage": "https://github.com/a1383n/release-flutter#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  }
+}
