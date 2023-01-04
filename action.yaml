@@ -1,0 +1,16 @@
+name: 'Release Flutter'
+description: 'An action for build and release the Flutter applications'
+author: 'Amirsobhan Nafariyeh'
+branding:
+  icon: tag
+  color: green
+inputs:
+  token:
+    required: true
+    description: 'The github token to access repository'
+  platform:
+    required: true
+    description: 'Specify the platform that should build'
+runs:
+  using: node16
+  main: './src/main.js'
